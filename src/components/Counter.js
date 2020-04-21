@@ -1,12 +1,13 @@
 import React, {Component} from 'react'
 
-export class Countre extends Component {
+export class Counter extends Component {
     render() {
         return(
             <div>
                 <div>
-                Counter : <span>{this.props.contador}</span>
+                Counter : <span>{this.props.counter}</span>
                 </div>
+               
                 <button onClick={this.props.increment} >+</button>
                 <button onClick={this.props.decrement} >-</button>
             </div>
